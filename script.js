@@ -3,7 +3,7 @@ const msalConfig = {
     auth: {
         clientId: "d24bfde1-e062-49da-8129-5bdcf609b00b", // Your client ID
         authority: "https://login.microsoftonline.com/4d4343c6-067a-4794-91f3-5cb10073e5b4", // Your tenant ID
-        redirectUri: "http://localhost:5501" // Your redirect URI
+        redirectUri: "https://brave-water-03e171b00.5.azurestaticapps.net" // Your redirect URI
     },
     cache: {
         cacheLocation: "localStorage", // or "sessionStorage"
